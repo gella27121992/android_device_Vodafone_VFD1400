@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/vodafone/VFD1400
+DEVICE_PATH := device/vodafone/vfd1400
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -39,8 +39,8 @@ BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_CONFIG := VFD1400_defconfig
-TARGET_KERNEL_SOURCE := kernel/vodafone/VFD1400
+TARGET_KERNEL_CONFIG := vfd1400_defconfig
+TARGET_KERNEL_SOURCE := kernel/vodafone/vfd1400
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

@@ -9,15 +9,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/cm/config/common.mk)
 
 # Inherit from VFD1400 device
-$(call inherit-product, device/vodafone/VFD1400/device.mk)
+$(call inherit-product, device/vodafone/vfd1400/device.mk)
 
-PRODUCT_DEVICE := VFD1400
-PRODUCT_NAME := omni_VFD1400
-PRODUCT_BRAND := Vodafone
-PRODUCT_MODEL := VFD 1400
+PRODUCT_DEVICE := vfd1400
+PRODUCT_NAME := cm_vfd1400
+PRODUCT_BRAND := vodafone
+PRODUCT_MODEL := vfd1400
 PRODUCT_MANUFACTURER := vodafone
 
 PRODUCT_GMS_CLIENTID_BASE := android-alcatel

@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_VFD1400.mk
+    $(LOCAL_DIR)/cm_vfd1400.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_VFD1400-user \
-    omni_VFD1400-userdebug \
-    omni_VFD1400-eng
+    cm_vfd1400-user \
+    cm_vfd1400-userdebug \
+    cm_vfd1400-eng

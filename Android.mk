@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),VFD1400)
+ifeq ($(TARGET_DEVICE),vfd1400)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

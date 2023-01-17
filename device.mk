@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/vodafone/VFD1400
+LOCAL_PATH := device/vodafone/vfd1400

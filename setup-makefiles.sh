@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=VFD1400
+DEVICE=vfd1400
 VENDOR=vodafone
 
 # Load extract_utils and do some sanity checks
